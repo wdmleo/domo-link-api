@@ -1,0 +1,34 @@
+{
+  "name": "domo-link-api",
+  "version": "0.0.1",
+  "description": "A link to all your DIY domotic module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdmleo/domo-link-api.git"
+  },
+  "keywords": [
+    "domotic",
+    "api",
+    "module",
+    "arduino",
+    "raspberry"
+  ],
+  "author": "Leo Nadeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdmleo/domo-link-api/issues"
+  },
+  "homepage": "https://github.com/wdmleo/domo-link-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.7"
+  }
+}
